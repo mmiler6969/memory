@@ -1,0 +1,64 @@
+:root {
+	font-size: 10px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-image: url(images/bgbody.jpg);
+	color: #DAA520;
+	min-width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+
+
+@media (max-width:400px) {
+
+
+
+	h1 {
+		font-size: 3.5rem;
+
+		margin: 10px 10px 10px;
+		text-align: center;
+	}
+
+	main section a {
+		text-align: center;
+		text-decoration: none;
+		color: #FDD853;
+
+	}
+
+	main section a:hover>i,
+	main section a:hover>h1 {
+		color: #DAA520;
+		cursor: pointer
+	}
+
+
+	i.fa-grin-hearts {
+		font-size: 10rem;
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	main section {
+		display: flex;
+		flex-direction: column;
+	}
